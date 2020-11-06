@@ -137,7 +137,7 @@ public class Rocket : MonoBehaviour
 
     private void RespondToRotateInput()
     {
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.Q))
         {
             RotateManually(rcsThrust * Time.deltaTime);
         }
